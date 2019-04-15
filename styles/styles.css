@@ -1,22 +1,5 @@
-h1 {
-  font-size: 40px;
-  text-align: center;
-  color: blue;
-}
-
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-}
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #408EDD;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
-}
-img {
-  display: block;
-  margin: 0 auto;
+p {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
 }
