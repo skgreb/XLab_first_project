@@ -8,3 +8,9 @@ myImage.onclick = function() {
       myImage.setAttribute ('src','images/300px-Humpback_whales_in_singing_position.jpg');
     }
 }
+function surprise() {
+  var sourceOfPicture = "images/Hello there... - Imgur.gif";
+  var img = document.getElementById('surprise')
+  img.src = sourceOfPicture.replace('90x90', '225x225');
+  img.style.display = "block";
+}

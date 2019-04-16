@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script>
+      var user = prompt("Hey, whats your Name?", "")
+      if(user==""){user = "WhaleFan123"}
+    </script>
+    <script>
+      var ask = confirm(user + ", are you ready to learn something about humpback whales?!")
+      if (!ask){
+        alert("ok :(");
+        location.href = "http://google.com";
+      }
+    </script>
     <meta charset="utf-8">
     <title>First project</title>
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>"The humback whales"</h1>
-    <img src="images/300px-Humpback_whales_in_singing_position.jpg" alt="Humpback_whales_in_singing_position">
-    <p> Humback whales can have a length from 12-16 meters.
+    <h1>"The humpback whales"</h1>
+    <figure>
+      <img src="images/300px-Humpback_whales_in_singing_position.jpg" alt="Humpback_whales_in_singing_position">
+      <figcaption style="text-align:center;">Click me!</figcaption>
+    </figure>
+    <p> Humpback whales can have a length from 12-16 meters.
       Adult males sing for 10-20 minutes and repeat this sequence for hours.
       These whales migrate up to 25,000 km each year. They migrate to:</p>
     <u>
-      <li>Polar regions</li>
-      <li>Tropical regions</li>
-      <li>Subtropical regions</li>
+      <li>Polar</li>
+      <li>Tropical</li>
+      <li>Subtropical</li>
     </u>
     <p>waters.</p>
-    <p> Read at <a href="https://en.wikipedia.org/wiki/Humpback_whale">Wikipedia Humpback whale</a> more about this animals</p>
+    <p> Read at <a href="https://en.wikipedia.org/wiki/Humpback_whale">Wikipedia Humpback whale</a> more about these animals</p>
+    <img style="display:none;" id="surprise" src="surprise" />
+    <button style="height:200px;width:200px" onclick="surprise()">Click here for a surprise ;)</button>
     <script type="text/javascript" src="scripts/main.js"></script>
 
   </body>
