@@ -12,16 +12,16 @@ myImage.onclick = function() {
     }
 
 }
-function surprise() {
+$(".surprisebutton").click(function () {
   var sourceOfPicture = "images/Hello there... - Imgur.gif";
-  var img = document.getElementById('surprise')
+  var img = document.getElementById('surprise');
   img.src = sourceOfPicture.replace('90x90', '225x225');
   img.style.display = "block";
   $(".surprisebutton").addClass('hide');
 
 
 
-}
+})
 
 sayit.onclick= function()  {
     var whalesare = document.getElementById("textfield").value;
