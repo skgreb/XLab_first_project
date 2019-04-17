@@ -1,3 +1,6 @@
+$().ready(function() {
+
+
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -29,4 +32,5 @@ sayit.onclick= function()  {
 
 
 
+}
 }
