@@ -9,9 +9,31 @@ p, li {
   letter-spacing: 1px;
 }
 body {
-  background-color: #CBFBFE; 
+  background-color: #CBFBFE;
 }
 img {
   display: block;
   margin: 0 auto;
+}
+
+.hide{
+  display: none;
+}
+
+.wrapper{
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.informed{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2%;
+}
+.inliner p{
+  display: inline;
+
 }

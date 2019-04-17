@@ -17,6 +17,9 @@
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+    <div class="wrapper">
+
+
     <h1>"The humpback whales"</h1>
     <figure>
       <img src="images/300px-Humpback_whales_in_singing_position.jpg" alt="Humpback_whales_in_singing_position">
@@ -32,8 +35,18 @@
     </u>
     <p>waters.</p>
     <p> Read at <a href="https://en.wikipedia.org/wiki/Humpback_whale">Wikipedia Humpback whale</a> more about these animals</p>
+    <div class="informed">
+      <div class="inliner">
+        <p>  After being very informed about Humpback Whales you can say Whales are just </p> <p id="newtext">_______</p> <p>!</p>
+      </div>
+      <input type="text"  id="textfield" size="40">
+      <button type="button" id="sayit">Say it</button>
+    </div>
+
     <img style="display:none;" id="surprise" src="surprise" />
-    <button style="height:200px;width:200px" onclick="surprise()">Click here for a surprise ;)</button>
+    <button class="surprisebutton" style="height:200px;width:200px" onclick="surprise()">Click here for a surprise ;)</button>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="scripts/main.js"></script>
 
   </body>
